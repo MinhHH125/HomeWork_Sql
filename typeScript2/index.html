@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Hello world !!!</h1>
+    <div>
+      <input type="text" id="input1" placeholder="Enter first number" />
+      <input
+        type="text"
+        id="input2"
+        placeholder="Enter second number (optional)"
+      />
+    </div>
+    <div>
+      <button onclick="calculate('sum')">+</button>
+      <button onclick="calculate('difference')">-</button>
+      <button onclick="calculate('product')">×</button>
+      <button onclick="calculate('quotient')">÷</button>
+      <button onclick="calculate('giaiThua')">!</button>
+      <button onclick="calculate('luyThua')">^</button>
+      <button onclick="calculate('can')">Căn</button>
+    </div>
+    <div>
+      <h2>Result: <span id="result"></span></h2>
+    </div>
+    <script src="./dist/bai1.js"></script>
+  </body>
+</html>
